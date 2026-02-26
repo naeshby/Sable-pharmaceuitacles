@@ -1,0 +1,84 @@
+/* Custom overrides for Sable Medical brand */
+
+:root {
+    --primary: #0066cc;
+    --secondary: #0a3147;
+    --light-bg: #f8fafc;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-primary:hover {
+    background-color: #004999;
+    border-color: #004999;
+}
+.text-primary {
+    color: var(--primary) !important;
+}
+.text-secondary {
+    color: var(--secondary) !important;
+}
+.border-primary {
+    border-color: var(--primary) !important;
+}
+
+.hero {
+    background: linear-gradient(rgba(10,49,71,0.85), rgba(10,49,71,0.85)), url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    color: white;
+    padding: 5rem 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.section-title h2 {
+    display: inline-block;
+    border-bottom: 3px solid var(--primary);
+    padding-bottom: 0.5rem;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+}
+
+.value-icon {
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+
+.lab-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.lab-list li {
+    background: white;
+    padding: 0.3rem 1rem;
+    border-radius: 30px;
+    border: 1px solid #dee2e6;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+.footer a:hover {
+    color: white;
+}
